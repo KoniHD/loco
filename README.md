@@ -10,7 +10,9 @@ For more details, we refer to our [paper](https://mediatum.ub.tum.de/doc/1578845
 ### Data
 The annotated dataset can be downloaded [here](https://go.mytum.de/239870). Furthermore, we also provide additional data (not annotated) [here](http://go.mytum.de/928009).
 ### Annotations 
-Annotations are stored in [COCO format](https://cocodataset.org/#format-data) under `rgb/loco-all-v1.json`. For ease of use, we also provide seperate annotation files for each subset. 
+Annotations are stored in [COCO format](https://cocodataset.org/#format-data) under `rgb/loco-all-v1.json`. For ease of use, we also provide seperate annotation files for each subset.
+### Annotations in YOLO format
+For ease of use two scripts are added which can automate the dataset download (`get_loco.sh`) and transform the data anotation to the YOLO format (`transform_to_yolo_format.py`)
 
 ## Credits & How to cite
 This project would not have been possible without the amazing team including Dimitrij-Marian Holm, Benjamin Molter, Nikolai Ruof and Mubashir Hanif as well as all the hardworking annotators.
